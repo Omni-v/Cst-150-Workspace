@@ -1,0 +1,17 @@
+C:\Cst-150-Workspace\latinTranslator\bin\Debug\net6.0-windows\latinTranslator.exe
+C:\Cst-150-Workspace\latinTranslator\bin\Debug\net6.0-windows\latinTranslator.deps.json
+C:\Cst-150-Workspace\latinTranslator\bin\Debug\net6.0-windows\latinTranslator.runtimeconfig.json
+C:\Cst-150-Workspace\latinTranslator\bin\Debug\net6.0-windows\latinTranslator.dll
+C:\Cst-150-Workspace\latinTranslator\bin\Debug\net6.0-windows\latinTranslator.pdb
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.csproj.AssemblyReference.cache
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.Form1.resources
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.csproj.GenerateResource.cache
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.AssemblyInfoInputs.cache
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.AssemblyInfo.cs
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.csproj.CoreCompileInputs.cache
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.dll
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\refint\latinTranslator.dll
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.pdb
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\latinTranslator.genruntimeconfig.cache
+C:\Cst-150-Workspace\latinTranslator\obj\Debug\net6.0-windows\ref\latinTranslator.dll
