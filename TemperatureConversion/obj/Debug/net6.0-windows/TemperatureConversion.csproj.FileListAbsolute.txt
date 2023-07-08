@@ -1,0 +1,17 @@
+C:\Cst-150-Workspace\TemperatureConversion\bin\Debug\net6.0-windows\TemperatureConversion.exe
+C:\Cst-150-Workspace\TemperatureConversion\bin\Debug\net6.0-windows\TemperatureConversion.deps.json
+C:\Cst-150-Workspace\TemperatureConversion\bin\Debug\net6.0-windows\TemperatureConversion.runtimeconfig.json
+C:\Cst-150-Workspace\TemperatureConversion\bin\Debug\net6.0-windows\TemperatureConversion.dll
+C:\Cst-150-Workspace\TemperatureConversion\bin\Debug\net6.0-windows\TemperatureConversion.pdb
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.csproj.AssemblyReference.cache
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.csproj.GenerateResource.cache
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.AssemblyInfoInputs.cache
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.AssemblyInfo.cs
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.csproj.CoreCompileInputs.cache
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.dll
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\refint\TemperatureConversion.dll
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.pdb
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.genruntimeconfig.cache
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\ref\TemperatureConversion.dll
+C:\Cst-150-Workspace\TemperatureConversion\obj\Debug\net6.0-windows\TemperatureConversion.TempForm.resources
