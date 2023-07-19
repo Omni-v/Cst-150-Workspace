@@ -1,4 +1,4 @@
-﻿namespace buttonClicker
+﻿namespace Milestone
 {
     partial class InventoryApplication
     {
