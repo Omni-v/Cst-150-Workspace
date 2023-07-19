@@ -1,6 +1,6 @@
 using System.Drawing.Text;
 
-namespace buttonClicker
+namespace Milestone
 {
     public partial class InventoryApplication : Form
     {
