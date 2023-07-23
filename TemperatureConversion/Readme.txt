@@ -1,1 +1,1 @@
-# This is the submission of activity one. In this activity we are asked to create a project that uses an on_click to convert a users input. In this assignment I decided to convert fahrenheit to celcius. All the tools have appropriate names and follow logic. 
+//**** ACTIVITY 6 UPDATE HAS BEEN UPLOADED ALONG WITH ALL SCREENSHOTS TO GIT ***//
