@@ -1,88 +1,131 @@
+using System.Drawing.Text;
+
 namespace TemperatureConversion
 {
-    public partial class TempForm : Form
+    public partial class temperatureConversionApp : Form
     {
-        public TempForm()
+        public temperatureConversionApp()
         {
             InitializeComponent();
         }
 
         private void InitializeComponent()
         {
-            Prompt = new Label();
-            UserInput = new TextBox();
-            Output = new Label();
-            this.outputBox = new TextBox();
-            this.ConvertButton = new Button();
+            inputInstrucitons = new Label();
+            FahrenheitInput = new TextBox();
+            CelciusOutputInformation = new Label();
+            celciusInformation = new TextBox();
+            FahrenheitToCelcius = new Button();
+            textBox1 = new TextBox();
+            resetCalculation = new Button();
             SuspendLayout();
             // 
-            // Prompt
+            // inputInstrucitons
             // 
-            Prompt.BackColor = SystemColors.ControlLightLight;
-            Prompt.BorderStyle = BorderStyle.FixedSingle;
-            Prompt.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            Prompt.Location = new Point(79, 81);
-            Prompt.Name = "Prompt";
-            Prompt.Size = new Size(205, 23);
-            Prompt.TabIndex = 0;
-            Prompt.Text = "Type current weather in fahrenheit. ";
+            inputInstrucitons.BackColor = SystemColors.ControlLightLight;
+            inputInstrucitons.BorderStyle = BorderStyle.FixedSingle;
+            inputInstrucitons.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            inputInstrucitons.Location = new Point(79, 81);
+            inputInstrucitons.Name = "inputInstrucitons";
+            inputInstrucitons.Size = new Size(205, 23);
+            inputInstrucitons.TabIndex = 0;
+            inputInstrucitons.Text = "Type current weather in fahrenheit. ";
             // 
-            // UserInput
+            // FahrenheitInput
             // 
-            UserInput.Location = new Point(309, 81);
-            UserInput.Name = "UserInput";
-            UserInput.Size = new Size(100, 23);
-            UserInput.TabIndex = 1;
+            FahrenheitInput.Location = new Point(309, 81);
+            FahrenheitInput.Name = "FahrenheitInput";
+            FahrenheitInput.Size = new Size(100, 23);
+            FahrenheitInput.TabIndex = 1;
             // 
-            // Output
+            // CelciusOutputInformation
             // 
-            Output.BackColor = SystemColors.ControlLightLight;
-            Output.BorderStyle = BorderStyle.FixedSingle;
-            Output.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            Output.Location = new Point(79, 119);
-            Output.Name = "Output";
-            Output.Size = new Size(205, 23);
-            Output.TabIndex = 2;
-            Output.Text = "Current temp converted to Celcius";
+            CelciusOutputInformation.BackColor = SystemColors.ControlLightLight;
+            CelciusOutputInformation.BorderStyle = BorderStyle.FixedSingle;
+            CelciusOutputInformation.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CelciusOutputInformation.Location = new Point(79, 119);
+            CelciusOutputInformation.Name = "CelciusOutputInformation";
+            CelciusOutputInformation.Size = new Size(205, 23);
+            CelciusOutputInformation.TabIndex = 2;
+            CelciusOutputInformation.Text = "Current temp converted to Celcius";
             // 
-            // outputBox
+            // celciusInformation
             // 
-            this.outputBox.Location = new Point(309, 119);
-            this.outputBox.Name = "outputBox";
-            this.outputBox.Size = new Size(100, 23);
-            this.outputBox.TabIndex = 3;
+            celciusInformation.Location = new Point(309, 119);
+            celciusInformation.Name = "celciusInformation";
+            celciusInformation.Size = new Size(100, 23);
+            celciusInformation.TabIndex = 3;
             // 
-            // ConvertButton
+            // FahrenheitToCelcius
             // 
-            this.ConvertButton.Location = new Point(324, 166);
-            this.ConvertButton.Name = "ConvertButton";
-            this.ConvertButton.Size = new Size(75, 23);
-            this.ConvertButton.TabIndex = 4;
-            this.ConvertButton.Text = "Convert";
-            this.ConvertButton.UseVisualStyleBackColor = true;
-            this.ConvertButton.Click += this.ConvertButton_Click;
+            FahrenheitToCelcius.Location = new Point(279, 166);
+            FahrenheitToCelcius.Name = "FahrenheitToCelcius";
+            FahrenheitToCelcius.Size = new Size(75, 23);
+            FahrenheitToCelcius.TabIndex = 4;
+            FahrenheitToCelcius.Text = "Convert";
+            FahrenheitToCelcius.UseVisualStyleBackColor = true;
+            FahrenheitToCelcius.Click += ConvertButton_Click;
             // 
-            // TempForm
+            // textBox1
             // 
-            BackColor = SystemColors.InactiveCaption;
+            textBox1.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(79, 12);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(329, 22);
+            textBox1.TabIndex = 5;
+            textBox1.Text = "CST-15-// GCU // Owen Lindsey // Professor Smithers Mark";
+            // 
+            // resetCalculation
+            // 
+            resetCalculation.Location = new Point(360, 166);
+            resetCalculation.Name = "resetCalculation";
+            resetCalculation.Size = new Size(75, 23);
+            resetCalculation.TabIndex = 6;
+            resetCalculation.Text = "Reset";
+            resetCalculation.UseVisualStyleBackColor = true;
+            resetCalculation.Click += resetCalculation_Click;
+            // 
+            // temperatureConversionApp
+            // 
+            BackColor = Color.PapayaWhip;
             ClientSize = new Size(556, 261);
-            Controls.Add(this.ConvertButton);
-            Controls.Add(this.outputBox);
-            Controls.Add(Output);
-            Controls.Add(UserInput);
-            Controls.Add(Prompt);
-            Name = "TempForm";
-            Text = "TempForm";
+            Controls.Add(resetCalculation);
+            Controls.Add(textBox1);
+            Controls.Add(FahrenheitToCelcius);
+            Controls.Add(celciusInformation);
+            Controls.Add(CelciusOutputInformation);
+            Controls.Add(FahrenheitInput);
+            Controls.Add(inputInstrucitons);
+            Name = "temperatureConversionApp";
+            Text = "Temperature Conversion Application";
             ResumeLayout(false);
             PerformLayout();
         }
 
         private void ConvertButton_Click(object sender, EventArgs e)
         {
-            /*create a calculator for converting fahrenheit to celcius*/
-            double fahrenheit = double.Parse(UserInput.Text);
-            double celcius = (fahrenheit - 32) * 5 / 9;
-            outputBox.Text = celcius.ToString();
+            //use exception handling to catch anything other than numbers and return an error while converting temperature from celcius to fahrenheit
+            try
+            {
+                //convert fahrenheit to celcius
+                double fahrenheit = double.Parse(FahrenheitInput.Text);
+                double celcius = (fahrenheit - 32) * 5 / 9;
+                celciusInformation.Text = celcius.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please enter a number.");
+            }
+
+
+        }
+        //when reset button is clicked, clear the text boxes
+
+
+        private void resetCalculation_Click(object sender, EventArgs e)
+        {
+            FahrenheitInput.Text = "";
+            celciusInformation.Text = "";
 
         }
     }
