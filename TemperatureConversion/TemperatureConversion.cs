@@ -11,12 +11,13 @@ namespace TemperatureConversion
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(temperatureConversionApp));
             inputInstrucitons = new Label();
             FahrenheitInput = new TextBox();
             CelciusOutputInformation = new Label();
             celciusInformation = new TextBox();
             FahrenheitToCelcius = new Button();
-            textBox1 = new TextBox();
+            title = new TextBox();
             resetCalculation = new Button();
             SuspendLayout();
             // 
@@ -64,16 +65,16 @@ namespace TemperatureConversion
             FahrenheitToCelcius.TabIndex = 4;
             FahrenheitToCelcius.Text = "Convert";
             FahrenheitToCelcius.UseVisualStyleBackColor = true;
-            FahrenheitToCelcius.Click += ConvertButton_Click;
+            FahrenheitToCelcius.Click += FahrenheitToCelcius_Click;
             // 
-            // textBox1
+            // title
             // 
-            textBox1.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(79, 12);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(329, 22);
-            textBox1.TabIndex = 5;
-            textBox1.Text = "CST-15-// GCU // Owen Lindsey // Professor Smithers Mark";
+            title.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            title.Location = new Point(79, 12);
+            title.Name = "title";
+            title.Size = new Size(329, 22);
+            title.TabIndex = 5;
+            title.Text = "CST-15-// GCU // Owen Lindsey // Professor Smithers Mark";
             // 
             // resetCalculation
             // 
@@ -90,19 +91,20 @@ namespace TemperatureConversion
             BackColor = Color.PapayaWhip;
             ClientSize = new Size(556, 261);
             Controls.Add(resetCalculation);
-            Controls.Add(textBox1);
+            Controls.Add(title);
             Controls.Add(FahrenheitToCelcius);
             Controls.Add(celciusInformation);
             Controls.Add(CelciusOutputInformation);
             Controls.Add(FahrenheitInput);
             Controls.Add(inputInstrucitons);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "temperatureConversionApp";
             Text = "Temperature Conversion Application";
             ResumeLayout(false);
             PerformLayout();
         }
 
-        private void ConvertButton_Click(object sender, EventArgs e)
+        private void FahrenheitToCelcius_Click(object sender, EventArgs e)
         {
             //use exception handling to catch anything other than numbers and return an error while converting temperature from celcius to fahrenheit
             try
