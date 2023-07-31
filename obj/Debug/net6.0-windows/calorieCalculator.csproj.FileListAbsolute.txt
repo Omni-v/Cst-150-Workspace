@@ -1,0 +1,17 @@
+C:\Cst-150-Workspace\calorieCalculator\bin\Debug\net6.0-windows\calorieCalculator.exe
+C:\Cst-150-Workspace\calorieCalculator\bin\Debug\net6.0-windows\calorieCalculator.deps.json
+C:\Cst-150-Workspace\calorieCalculator\bin\Debug\net6.0-windows\calorieCalculator.runtimeconfig.json
+C:\Cst-150-Workspace\calorieCalculator\bin\Debug\net6.0-windows\calorieCalculator.dll
+C:\Cst-150-Workspace\calorieCalculator\bin\Debug\net6.0-windows\calorieCalculator.pdb
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.csproj.AssemblyReference.cache
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.CaloricCalculatorForm.resources
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.csproj.GenerateResource.cache
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.AssemblyInfoInputs.cache
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.AssemblyInfo.cs
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.csproj.CoreCompileInputs.cache
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.dll
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\refint\calorieCalculator.dll
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.pdb
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\calorieCalculator.genruntimeconfig.cache
+C:\Cst-150-Workspace\calorieCalculator\obj\Debug\net6.0-windows\ref\calorieCalculator.dll
