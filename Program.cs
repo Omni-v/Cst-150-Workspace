@@ -1,17 +1,49 @@
-namespace ticTacToe
+﻿using System;
+using System.IO;
+
+namespace WordEndingsCounter
 {
-    internal static class Program
+    class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
-        [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Console.WriteLine("Enter the full path to the file:");
+            string filePath = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(filePath))
+            {
+                Console.WriteLine("No file path entered.");
+                return;
+            }
+
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine($"File not found: {filePath}");
+                return;
+            }
+
+            string content = File.ReadAllText(filePath);
+            int count = CountWordsEndingWithTOrE(content);
+
+            Console.WriteLine($"Number of words ending with 't' or 'e': {count}");
+        }
+
+        private static int CountWordsEndingWithTOrE(string content)
+        {
+            string[] words = content.Split(new char[] { ' ', '.', ',', ';', '!', '?', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int count = 0;
+
+            foreach (string word in words)
+            {
+                char lastChar = char.ToLower(word[word.Length - 1]);
+                if (lastChar == 't' || lastChar == 'e')
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
     }
 }
