@@ -1,0 +1,17 @@
+C:\CST-150-new-folder\BoxesAndInputs\bin\Debug\net7.0-windows\BoxesAndInputs.exe
+C:\CST-150-new-folder\BoxesAndInputs\bin\Debug\net7.0-windows\BoxesAndInputs.deps.json
+C:\CST-150-new-folder\BoxesAndInputs\bin\Debug\net7.0-windows\BoxesAndInputs.runtimeconfig.json
+C:\CST-150-new-folder\BoxesAndInputs\bin\Debug\net7.0-windows\BoxesAndInputs.dll
+C:\CST-150-new-folder\BoxesAndInputs\bin\Debug\net7.0-windows\BoxesAndInputs.pdb
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.csproj.AssemblyReference.cache
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.Form1.resources
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.csproj.GenerateResource.cache
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.GeneratedMSBuildEditorConfig.editorconfig
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.AssemblyInfoInputs.cache
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.AssemblyInfo.cs
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.csproj.CoreCompileInputs.cache
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.dll
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\refint\BoxesAndInputs.dll
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.pdb
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\BoxesAndInputs.genruntimeconfig.cache
+C:\CST-150-new-folder\BoxesAndInputs\obj\Debug\net7.0-windows\ref\BoxesAndInputs.dll
