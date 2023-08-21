@@ -1,0 +1,17 @@
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.Form2.resources
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.csproj.GenerateResource.cache
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.AssemblyInfoInputs.cache
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.AssemblyInfo.cs
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.csproj.CoreCompileInputs.cache
+C:\Users\Owenl\source\repos\Activity15\Activity15\bin\Debug\net6.0-windows\Activity15.exe
+C:\Users\Owenl\source\repos\Activity15\Activity15\bin\Debug\net6.0-windows\Activity15.deps.json
+C:\Users\Owenl\source\repos\Activity15\Activity15\bin\Debug\net6.0-windows\Activity15.runtimeconfig.json
+C:\Users\Owenl\source\repos\Activity15\Activity15\bin\Debug\net6.0-windows\Activity15.dll
+C:\Users\Owenl\source\repos\Activity15\Activity15\bin\Debug\net6.0-windows\Activity15.pdb
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.Form1.resources
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.dll
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\refint\Activity15.dll
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.pdb
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\Activity15.genruntimeconfig.cache
+C:\Users\Owenl\source\repos\Activity15\Activity15\obj\Debug\net6.0-windows\ref\Activity15.dll
